@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>API Call</title>
+</head>
+
+<body>
+    <div align="center">
+        <h1>API Call</h1>
+    </div>
+    <div align = "center">
+        <form action="." method="POST">
+            <input type ="text", name = "ID", palceholder = "ID">
+            <input type="submit" name="submit" value="Submit">
+        </form>
+    </div>
+    <br>
+    <br>
+    <div align="center">
+        {% if resp %}<p>{{resp}}<p>{% endif %}
+    </div>
+</body>
+
+</html>
